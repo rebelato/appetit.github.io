@@ -1,0 +1,236 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Graduate');
+/* CSS Document */
+
+div.container{
+	font-family: "Roboto";
+
+}
+
+/*
+menu
+--------------------------------
+*/
+.header-container{
+	width: 1040px;
+	margin: 0 auto;
+	height: 150px;
+	overflow: auto;
+}
+
+.logo{
+	margin-top: 20px;
+	display: block;
+	margin-left: 50px;
+	width: 100px;
+	float: left;
+}
+
+.logo img {
+	width: 100px
+}
+
+
+
+.menu {
+	width: 100%;
+	margin: 0px;
+	margin-top: 20px;
+}
+
+.menu ul {
+    list-style-type: none;
+   	padding: 0;
+    overflow: hidden;
+    top: 0px;
+    width: 100%;
+	text-align: center
+}
+
+.menu li {
+	display: inline-block
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 30px ;
+    text-decoration: none;
+	transition: 0.2s all ease;
+}
+
+
+/*
+fast container
+--------------------------------
+*/
+
+
+.fast-container {
+	width: 1280px
+	margin: 0 auto;
+	height: 400px;
+}
+
+
+/*
+participe
+--------------------------------
+*/
+
+.faixa-lateral-esquerda{
+	margin-left: -64px
+}
+
+.participe-container{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #717279;
+}
+
+.participe-item{
+	color: white;
+	text-align: left;
+}
+
+.participe-item img {
+	width: 150px;
+	margin: 0 auto;
+}
+
+.participe-item h1{
+	margin-left: 0px;
+	margin-top: 10px;
+	
+}
+.participe-container h1{
+	font-family: "Roboto";
+	font-size: 32px;
+	text-align: center;
+	margin-right: 48%;
+}
+/*
+About us
+--------------------------------
+*/
+
+.about-container{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+	background-size: cover;
+	
+}
+
+.about{
+	color: white;
+	text-align: center;
+}
+
+.about h1{
+	font-family: "Graduate";
+	font-size: 32px;
+	color: white;
+	text-align: center;
+	margin: 20px  0px 80px ;
+}
+.about-item{
+	color: white;
+	text-align: center;
+	margin: 80px 0px
+}
+
+.about-item img {
+	width: 150px;
+	margin: 0 auto;
+}
+
+.about-item h3{
+	margin-top: 10px;	
+}
+/*
+Galeria - barra pesquisa
+-------------------------
+*/
+.barra-pesquisa{
+	background-color: white;
+	padding-top: 25px;
+	padding-bottom: 15px;
+}
+
+.item-pesquisa {
+	display: inline-block;
+	border-radius: 22px;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #fff;
+	background: #99cc66;
+	padding: 7px 20px;
+	margin: 0 8px;
+	cursor: pointer;
+	text-decoration: none;
+	
+}
+
+.item-pesquisa.active, .item-pesquisa:hover {
+	color: #fff;
+	background: #5a8c2d;
+	text-decoration: none;
+	
+}
+
+.busca {
+	width: 400px;
+	padding: 7px 14px;
+	outline: none;
+	font-size: 16px;
+	border: none;
+	box-shadow: 0 3px 8px #999;
+	border-radius: 20px;
+}
+
+@media (min-width: 768px) {
+	.busca {
+		margin-right:20px;
+		float: right;
+		width: 300px;
+
+	}
+}
+
+.post-item{
+	margin: 20px 0
+}
+
+.post-item img{
+	width: 100%;
+	background:#fff
+
+}
+
+/*
+Google Maps
+-------------------------
+*/
+.google-maps {
+	padding-bottom: 56.25%; // This is the aspect ratio
+	height: 0;
+	overflow: hidden;
+}
+.google-maps iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
+}
+
+
+
+
+
+
+
